@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    
+
+    text-align: center;
+    color:black;
+}
+.profile h2{
+    font-size:30px;
+
+}
+span{
+    color: crimson;
+    font-size: large;
+}
+body{
+    background-color:#5bccfc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('./back.jpg');
+}
+
+img{
+    display: relative;
+    height: 250px;
+    border-radius: 50%;
+
+}
+.profile{
+padding: 20px;
+display:flex;
+flex-direction:column;
+align-items: center;
+position: relative;
+border-bottom: 10px groove;
+}
+
+.contactme{
+    padding: 20px;
+    border-bottom: 10px groove;
+}
+.contact {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color: rgb(255, 0, 123);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.hello{
+    font-size: medium;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.aboutme{
+    padding: 30px;
+    border-bottom: 10px groove;
+}
+.about{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color:rgb(255, 0, 98);
+    font-size: 30px;
+    text-align: center;
+    
+}
+p{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.techskills{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color: rgb(255, 0, 98);
+    font-size: 30px;
+    text-align: center;
+}
+.skill{
+    padding: 30px;
+    border-bottom: 10px groove;
+}
+.skill .box h3{
+    font-weight: 900;
+    color: rgb(135, 151, 222);
+}
+.skill .box .percentage{
+    position: relative;
+    width:100%;
+    height: 8px;
+    background-color: black;
+}
+
+.skill .box .html{
+    background-color:rgb(255, 153, 0);
+    width: 90%;
+    height: 10px;
+}
+
+.skill .box .css{
+    background-color: rgb(255, 153, 0);
+    width: 60%;
+    height: 10px;
+}
+
+.skill .box .javascript{
+    background-color: rgb(255, 153, 0);
+    width: 40%;
+    height: 10px;
+}
+.skill .box .python{
+    background-color: rgb(255, 162, 0);
+    width: 30%;
+    height: 10px;
+}
