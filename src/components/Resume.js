@@ -5,7 +5,8 @@ import logo from './moh.jpg'
 export default function Resume() {
   return (
     <div class="Resume">
-        
+
+
   
     
     <div class="profile">

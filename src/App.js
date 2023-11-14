@@ -1,6 +1,7 @@
 
-import './App.css';
-import Resume from './components/Resume';
+
+
+import Student from './components/student-form/Student';
 
 
 
@@ -8,7 +9,7 @@ import Resume from './components/Resume';
 function App() {
   return (
     <div className="App">
-      <Resume/>
+      <Student/>
     </div>
   );
 }
